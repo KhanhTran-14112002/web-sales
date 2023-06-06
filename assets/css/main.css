@@ -37,3 +37,7 @@ font-weight: 300;
 .header__navbar-item--strong{
     text-transform: uppercase;
 }
+.header__navbar-icon{
+    text-decoration: none;
+    color: var(--white-colorgit);
+}
