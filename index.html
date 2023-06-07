@@ -21,20 +21,37 @@
 
                 <nav class="header__navbar">
                     <ul class="header__list">
-                        <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng trên ứng dụng KHANH_SHOP</li>
+                        <li class="header__navbar-item header__navbar-item--separate header__navbar-item--can-click">
+                            Vào cửa hàng trên ứng dụng KHANH_SHOP
+                            <div class="header__qr-code">
+                                <img class="header__img-code" src="./assets/img/qr-code.jpg" alt="qr code">
+                                <div class="header__link">
+                                    <a href="" class="header__link-download">
+                                        <img class="header__link-download--app" src="./assets/img/ggpl.png" alt="">
+                                    </a>
+                                    <a href="" class="header__link-download--app">
+                                        <img class="header__link-download--app" src="./assets/img/appst.png" alt=""> 
+                                    </a>
+                                    <a href="" class="header__link-download--app">
+                                        <img class="header__link-download--app" src="./assets/img/appG.png" alt="">
+                                    </a>
+
+                                </div>
+                            </div>
+                        </li>
                         <li class="header__navbar-item">
                             Kết nối
-                            <a class="header__navbar-icon" href="">
+                            <a class="header__navbar-icon header__navbar-item--can-click" href="">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
-                            <a class="header__navbar-icon" href="">
+                            <a class="header__navbar-icon header__navbar-item--can-click" href="">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li>
     
                     </ul>
                     <ul class="header__list">
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--can-click">
                             <a class="header__navbar-item-link" href="">
                                 <a class="header__navbar-icon" href="">
                                     <i class="fa-solid fa-bell"></i>
@@ -42,7 +59,7 @@
                                 Thông báo
                             </a>
                         </li>
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--can-click">
                             <a class="header__navbar-item-link" href="">
                                 <a class="header__navbar-icon" href="">
                                     <i class="fa-sharp fa-regular fa-circle-question"></i>
@@ -50,8 +67,12 @@
                                 Trợ Giúp</a>
                             
                         </li>
-                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí</li>
-                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate header__navbar-item--can-click">
+                            Đăng kí
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--can-click">
+                            Đăng nhập
+                        </li>
                     </ul>
                 </nav>
             </div>
